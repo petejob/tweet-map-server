@@ -1,0 +1,21 @@
+{
+  "name": "tweet-map-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node listen.js",
+    "test": "mocha ./spec/"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "twit": "^2.2.11"
+  }
+}
