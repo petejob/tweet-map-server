@@ -1,4 +1,4 @@
-const T = require("../config/twit");
+const T = require("./twit");
 
 exports.fetchTweets = (req, res, next) => {
   const { lat, long, radius } = req.body;
